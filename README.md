@@ -13,9 +13,6 @@ python observe_attention_plus.py --mode baseline --iterations 1
 # One-off prompt
 python observe_attention_plus.py --mode single --prompt "Say the word test."
 
-# With synthetic history (to highlight masking on multiple user turns)
-python observe_attention_plus.py --mode tests --use-history --history-pairs 4
-
 # Turn off per-head PNG/CSVs if you want smaller outputs
 python observe_attention_plus.py --mode tests --no-per-head --no-csv
 ```
