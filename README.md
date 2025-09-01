@@ -1,5 +1,5 @@
 # llm-gather-inference-metrics
-This is just a script that runs test prompts against a system prompt and gathers statistics across the layers to see how much attention its paying to system vs user input
+This is just a script that runs test prompts against a system prompt and gathers statistics across the layers to see how much attention its paying to system vs user input. Shoutout to my boy ChatGPT for helping me produce and analyze the data
 
 ```
 pip install torch transformers matplotlib numpy pandas
